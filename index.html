@@ -1,0 +1,85 @@
+<!-- prettier-ignore -->
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Задание шапка сайта</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="navbar">
+          <div class="logo">
+            <p class="logo__text">DevPath</p>
+          </div>
+          <div class="navbar__body">
+            <div class="logo logo--mobile">
+              <p class="logo__text">DevPath</p>
+            </div>
+            <nav class="menu">
+              <ul class="menu__list">
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Главная</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Задания</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Статьи</a>
+                </li>
+                <li class="menu__item">
+                  <a href="#" class="menu__link">Прогресс</a>
+                </li>
+              </ul>
+            </nav>
+            <button type="button" class="navbar__btn navbar__btn--mobile">
+              Начать обучение
+            </button>
+          </div>
+          <div class="navbar__controls">
+            <button
+              type="button"
+              aria-label="Кнопка поиска"
+              class="navbar__search-btn"
+            >
+              <svg
+                class="navbar__search-icon"
+                viewBox="0 0 24 24"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <path
+                  d="M21 21L16.66 16.66"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+                <path
+                  d="M19 11C19 15.4183 15.4183 19 11 19C6.58172 19 3 15.4183 3 11C3 6.58172 6.58172 3 11 3C15.4183 3 19 6.58172 19 11Z"
+                  stroke-width="2"
+                  stroke-linecap="round"
+                  stroke-linejoin="round"
+                />
+              </svg>
+            </button>
+            <button type="button" class="navbar__btn">Начать обучение</button>
+          </div>
+          <div class="burger-menu">
+            <button
+              type="button"
+              aria-label="Open menu"
+              class="burger-menu__btn"
+            >
+              <span class="burger-menu__icon"></span>
+            </button>
+          </div>
+        </div>
+      </div>
+    </header>
+    <main class="main"></main>
+    <footer class="footer"></footer>
+    <script src="./js/main.js"></script>
+  </body>
+</html>
